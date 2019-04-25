@@ -43,4 +43,5 @@ def using_delete(inArray, inString)
 end
 
 def using_delete_at(inArray, int)
-  inArray.delete()
+  inArray.delete_at(int)
+end
