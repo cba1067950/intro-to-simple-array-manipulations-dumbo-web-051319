@@ -31,4 +31,5 @@ def using_inser(inArray, newElement)
 end
 
 def using_uniq(inArray)
-  inArray.uniq
+  inArray.uniq()
+end
