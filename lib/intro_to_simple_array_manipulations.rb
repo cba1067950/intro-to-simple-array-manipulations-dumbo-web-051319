@@ -26,10 +26,18 @@ def using_concat(array1, array2)
   array1.concat(array2)
 end
 
-def using_inser(inArray, newElement)
+def using_insert(inArray, newElement)
   inArray.insert(4, newElement)
 end
 
 def using_uniq(inArray)
   inArray.uniq()
+end
+
+def using_flatten(inArray)
+  inArray.flatten()
+end
+
+def using_delete(inArray, inString)
+  inArray.delete(inString)
 end
