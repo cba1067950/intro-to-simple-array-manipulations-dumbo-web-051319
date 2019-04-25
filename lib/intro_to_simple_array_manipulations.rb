@@ -10,8 +10,8 @@ def using_pop(inArray)
   inArray.pop()
 end
 
-def pop_with_args(inArray, popCount)
-  inArray.pop(popCount)
+def pop_with_args(inArray)
+  inArray.pop(2)
 end
 
 def using_shift(inArray)
