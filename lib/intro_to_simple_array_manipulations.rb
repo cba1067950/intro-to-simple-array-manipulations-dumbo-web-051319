@@ -6,4 +6,6 @@ def using_unshift(inArray, inString)
   inArray.unshift(inString)
 end
 
-def 
+def using_pop(inArray)
+  inArray.pop()
+end
