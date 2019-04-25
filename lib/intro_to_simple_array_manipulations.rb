@@ -10,5 +10,6 @@ def using_pop(inArray)
   inArray.pop()
 end
 
-def pop_with_args(inArray, item1, item2)
-  inArray.pop(item)
+def pop_with_args(inArray, itemNum)
+  inArray.pop(itemNum)
+end
